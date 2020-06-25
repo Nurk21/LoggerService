@@ -3,3 +3,10 @@ D:\Solutions\logger\LoggerService\LoggerService.BL\bin\Debug\netcoreapp3.1\Logge
 D:\Solutions\logger\LoggerService\LoggerService.BL\obj\Debug\netcoreapp3.1\LoggerService.BL.csprojAssemblyReference.cache
 D:\Solutions\logger\LoggerService\LoggerService.BL\obj\Debug\netcoreapp3.1\LoggerService.BL.AssemblyInfoInputs.cache
 D:\Solutions\logger\LoggerService\LoggerService.BL\obj\Debug\netcoreapp3.1\LoggerService.BL.AssemblyInfo.cs
+D:\Solutions\logger\LoggerService\LoggerService.BL\bin\Debug\netcoreapp3.1\LoggerService.Common.dll
+D:\Solutions\logger\LoggerService\LoggerService.BL\bin\Debug\netcoreapp3.1\LoggerService.BL.pdb
+D:\Solutions\logger\LoggerService\LoggerService.BL\bin\Debug\netcoreapp3.1\LoggerService.Common.pdb
+D:\Solutions\logger\LoggerService\LoggerService.BL\obj\Debug\netcoreapp3.1\LoggerService.BL.csproj.CoreCompileInputs.cache
+D:\Solutions\logger\LoggerService\LoggerService.BL\obj\Debug\netcoreapp3.1\LoggerService.BL.csproj.CopyComplete
+D:\Solutions\logger\LoggerService\LoggerService.BL\obj\Debug\netcoreapp3.1\LoggerService.BL.dll
+D:\Solutions\logger\LoggerService\LoggerService.BL\obj\Debug\netcoreapp3.1\LoggerService.BL.pdb

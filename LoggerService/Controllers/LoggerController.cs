@@ -3,6 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MongoDB.Bson;
+using MongoDB.Driver;
+using System.IO;
+using MongoDB.Bson.Serialization;
+using LoggerService.BL.Services;
 
 namespace LoggerService.Controllers
 {
@@ -10,18 +15,21 @@ namespace LoggerService.Controllers
     [Route("[controller]/[action]")]
     public class LoggerController : ControllerBase
     {
+        private readonly ILogRequestsHandler _logRequestHandler ;
+        public LoggerController(ILogRequestsHandler logRequestsHandler)
+        {
+            _logRequestHandler = logRequestsHandler;
+        }
         [HttpGet]
-        public async Task<IActionResult> GetAllasync(/*[FromQuery] Guid sessionID*/)
+        public async Task<List<string>> GetAllasync()
         {
-            return Ok();
+            return await _logRequestHandler.GetAllAsync();
         }
-
         [HttpPost]
-        [Consumes("application/x-www-form-urlencoded")]
-        public async Task<IActionResult> Create(/*[FromQuery] bool result, [FromForm] OschadResponseOnSuccess content*/)
+        public async Task<IActionResult> Create([FromBody] string jsonString)
         {
-            return Ok();
+            await _logRequestHandler.Create(jsonString);
+            return Ok();        
         }
-
     }
 }
