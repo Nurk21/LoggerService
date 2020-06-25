@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BMiYSlWxccRzBdY6ImhFXtdPdipVARSIb4+PS7yCMeGMwh+iiL6kajORStQ9cmZOtTCWisck0hItnCsPNNW+ag==",
+  "dgSpecHash": "1oXHt89BDGU3OMrg08UwsKD/8EuOz/+RInokf1SN6CPyuLYAjEkdAF9QiFshmlm5/OImIqWwzaiRV5vHQ9GCSg==",
   "success": true,
   "projectFilePath": "D:\\Solutions\\logger\\LoggerService\\LoggerService.BL\\LoggerService.BL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\VoskolovychOS\\.nuget\\packages\\rabbitmq.client\\6.1.0\\rabbitmq.client.6.1.0.nupkg.sha512",
+    "C:\\Users\\VoskolovychOS\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\VoskolovychOS\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }

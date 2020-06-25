@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using LoggerService.Common;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -23,22 +24,22 @@ namespace LoggerService
 
         private static void Validators(IServiceCollection services)
         {
-            services.AddScoped<IClientPaymentDataValidator, ClientPaymentDataValidator>();
+            //services.AddScoped<IClientPaymentDataValidator, ClientPaymentDataValidator>();
 
         }
 
         private static void Services(IServiceCollection services)
         {
-            services.AddScoped<IClientPaymentDataService, ClientPaymentDataService>();
-            services.AddScoped<IOschadPaymentService, OschadPaymentService>();
-            services.AddScoped<ICryptographyService, CryptographyService>();
-            services.AddScoped<IPutSuccessPaymentRecordThroughWINTService, PutSuccessPaymentRecordThroughWINTService>();
-            services.AddScoped<IGetDataFromDBThroughWINTService, GetDataFromDBThroughWINTService>();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
-            });
-            services.AddHttpClient();
+            //services.AddScoped<IClientPaymentDataService, ClientPaymentDataService>();
+            //services.AddScoped<IOschadPaymentService, OschadPaymentService>();
+            //services.AddScoped<ICryptographyService, CryptographyService>();
+            //services.AddScoped<IPutSuccessPaymentRecordThroughWINTService, PutSuccessPaymentRecordThroughWINTService>();
+            //services.AddScoped<IGetDataFromDBThroughWINTService, GetDataFromDBThroughWINTService>();
+            //services.AddSwaggerGen(c =>
+            //{
+            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            //});
+            //services.AddHttpClient();
         }
 
         private static void Repositories(IServiceCollection services)

@@ -1,0 +1,5 @@
+D:\Solutions\logger\LoggerService\LoggerService.BL\bin\Debug\netcoreapp3.1\LoggerService.BL.deps.json
+D:\Solutions\logger\LoggerService\LoggerService.BL\bin\Debug\netcoreapp3.1\LoggerService.BL.dll
+D:\Solutions\logger\LoggerService\LoggerService.BL\obj\Debug\netcoreapp3.1\LoggerService.BL.csprojAssemblyReference.cache
+D:\Solutions\logger\LoggerService\LoggerService.BL\obj\Debug\netcoreapp3.1\LoggerService.BL.AssemblyInfoInputs.cache
+D:\Solutions\logger\LoggerService\LoggerService.BL\obj\Debug\netcoreapp3.1\LoggerService.BL.AssemblyInfo.cs

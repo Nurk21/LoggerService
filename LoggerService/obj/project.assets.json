@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "LoggerService.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LoggerService.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LoggerService.Common.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LoggerService.Common/1.0.0": {
+      "type": "project",
+      "path": "../LoggerService.Common/LoggerService.Common.csproj",
+      "msbuildProject": "../LoggerService.Common/LoggerService.Common.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "LoggerService.Common >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\VoskolovychOS\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Solutions\\logger\\LoggerService\\LoggerService.Common\\LoggerService.Common.csproj": {
+              "projectPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService.Common\\LoggerService.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
