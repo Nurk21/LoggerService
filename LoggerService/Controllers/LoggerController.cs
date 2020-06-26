@@ -8,6 +8,7 @@ using MongoDB.Driver;
 using System.IO;
 using MongoDB.Bson.Serialization;
 using LoggerService.BL.Services;
+using LoggerService.DAL.Repositories;
 
 namespace LoggerService.Controllers
 {
@@ -15,20 +16,20 @@ namespace LoggerService.Controllers
     [Route("[controller]/[action]")]
     public class LoggerController : ControllerBase
     {
-        private readonly ILogRequestsHandler _logRequestHandler ;
-        public LoggerController(ILogRequestsHandler logRequestsHandler)
+        private readonly IMongoRepository<Log> _mongoRepository;
+        public LoggerController(IMongoRepository<Log> mongoRepository)
         {
-            _logRequestHandler = logRequestsHandler;
+            _mongoRepository = mongoRepository;
         }
         [HttpGet]
         public async Task<List<string>> GetAllasync()
         {
-            return await _logRequestHandler.GetAllAsync();
+            return await _mongoRepository.GetAllAsync();
         }
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] string jsonString)
         {
-            await _logRequestHandler.Create(jsonString);
+            await _mongoRepository.AddAsync(jsonString);
             return Ok();        
         }
     }

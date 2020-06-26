@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bnp0PN1mEZgqwhW2tjGaa5YndoB9mU0JgGLlxwrE5TcQm4VxcXxIGw24lB1QXA9CbC5rMvRaOMtoixvzCR7LFg==",
+  "dgSpecHash": "+xSj4fT5XZcMaufFxc4IJxYwi6WcIv7LVg/eADu4tiXsNaAPjpSuKQgrJ6CGt4LJ7w9ZiL73N84oF+ztPeIPYw==",
   "success": true,
-  "projectFilePath": "D:\\Solutions\\logger\\LoggerService\\LoggerService\\LoggerService.csproj",
+  "projectFilePath": "D:\\Solutions\\logger\\LoggerService\\LoggerService.DAL\\LoggerService.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VoskolovychOS\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
-    "C:\\Users\\VoskolovychOS\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\VoskolovychOS\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\VoskolovychOS\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
@@ -35,9 +34,7 @@
     "C:\\Users\\VoskolovychOS\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\VoskolovychOS\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\VoskolovychOS\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
-    "C:\\Users\\VoskolovychOS\\.nuget\\packages\\swashbuckle.aspnetcore\\5.0.0\\swashbuckle.aspnetcore.5.0.0.nupkg.sha512",
     "C:\\Users\\VoskolovychOS\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.0\\swashbuckle.aspnetcore.swagger.5.5.0.nupkg.sha512",
-    "C:\\Users\\VoskolovychOS\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.0.0\\swashbuckle.aspnetcore.swaggergen.5.0.0.nupkg.sha512",
     "C:\\Users\\VoskolovychOS\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.0\\swashbuckle.aspnetcore.swaggerui.5.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",

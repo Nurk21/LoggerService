@@ -1,4 +1,5 @@
-﻿using LoggerService.Common;
+﻿using LoggerService.BL.Services;
+using LoggerService.Common;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -40,6 +41,7 @@ namespace LoggerService
             //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             //});
             //services.AddHttpClient();
+            services.AddScoped<ILogRequestsHandler, LogRequestsHandler>();
         }
 
         private static void Repositories(IServiceCollection services)

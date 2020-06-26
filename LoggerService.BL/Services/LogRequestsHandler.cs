@@ -12,19 +12,19 @@ namespace LoggerService.BL.Services
 {
     public interface ILogRequestsHandler
     {
-        Task Create(string jsonString);
+        //Task Create(string jsonString);
         Task<List<string>> GetAllAsync();
     }
-    class LogRequestsHandler : ILogRequestsHandler
+    public class LogRequestsHandler : ILogRequestsHandler
     {
-        public async Task Create(string jsonString)
-        {            
-            string connectionString = "mongodb://localhost:27017";
-            MongoClient client = new MongoClient(connectionString);
-            IMongoDatabase database = client.GetDatabase("test");
-            var collection = database.GetCollection<BsonDocument>("Logs");
-            MongoDB.Bson.BsonDocument document = MongoDB.Bson.Serialization.BsonSerializer.Deserialize<BsonDocument>(jsonString);
-            await collection.InsertOneAsync(document);            
+        //public async Task Create(string jsonString)
+        //{            
+        //    string connectionString = "mongodb://localhost:27017";
+        //    MongoClient client = new MongoClient(connectionString);
+        //    IMongoDatabase database = client.GetDatabase("test");
+        //    var collection = database.GetCollection<BsonDocument>("Logs");
+        //    MongoDB.Bson.BsonDocument document = MongoDB.Bson.Serialization.BsonSerializer.Deserialize<BsonDocument>(jsonString);
+        //    await collection.InsertOneAsync(document);            
 
             //var factory = new ConnectionFactory() { HostName = "localhost" };
             //using (var connection = factory.CreateConnection())
@@ -58,7 +58,7 @@ namespace LoggerService.BL.Services
             //    channel.BasicConsume(queue: queueName,
             //                         autoAck: true,
             //                         consumer: consumer);
-        }
+        //}
         
         public async Task<List<string>> GetAllAsync()
         {

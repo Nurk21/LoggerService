@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Solutions\\logger\\LoggerService\\LoggerService\\LoggerService.csproj": {}
+    "D:\\Solutions\\logger\\LoggerService\\LoggerService.DAL\\LoggerService.DAL.csproj": {}
   },
   "projects": {
     "D:\\Solutions\\logger\\LoggerService\\LoggerService.BL\\LoggerService.BL.csproj": {
@@ -213,90 +213,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Solutions\\logger\\LoggerService\\LoggerService\\LoggerService.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Solutions\\logger\\LoggerService\\LoggerService\\LoggerService.csproj",
-        "projectName": "LoggerService",
-        "projectPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService\\LoggerService.csproj",
-        "packagesPath": "C:\\Users\\VoskolovychOS\\.nuget\\packages\\",
-        "outputPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\VoskolovychOS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "projectReferences": {
-              "D:\\Solutions\\logger\\LoggerService\\LoggerService.BL\\LoggerService.BL.csproj": {
-                "projectPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService.BL\\LoggerService.BL.csproj"
-              },
-              "D:\\Solutions\\logger\\LoggerService\\LoggerService.Common\\LoggerService.Common.csproj": {
-                "projectPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService.Common\\LoggerService.Common.csproj"
-              },
-              "D:\\Solutions\\logger\\LoggerService\\LoggerService.DAL\\LoggerService.DAL.csproj": {
-                "projectPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService.DAL\\LoggerService.DAL.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "dependencies": {
-            "MongoDB.Bson": {
-              "target": "Package",
-              "version": "[2.10.4, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.10.4, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

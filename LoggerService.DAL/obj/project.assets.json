@@ -11,17 +11,6 @@
           "lib/netstandard2.1/DnsClient.dll": {}
         }
       },
-      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
-        },
-        "buildMultiTargeting": {
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
-        }
-      },
       "Microsoft.NETCore.Platforms/2.1.2": {
         "type": "package",
         "compile": {
@@ -416,18 +405,6 @@
           "lib/netstandard2.0/SharpCompress.dll": {}
         }
       },
-      "Swashbuckle.AspNetCore/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
-          "Swashbuckle.AspNetCore.Swagger": "5.0.0",
-          "Swashbuckle.AspNetCore.SwaggerGen": "5.0.0",
-          "Swashbuckle.AspNetCore.SwaggerUI": "5.0.0"
-        },
-        "build": {
-          "build/Swashbuckle.AspNetCore.props": {}
-        }
-      },
       "Swashbuckle.AspNetCore.Swagger/5.5.0": {
         "type": "package",
         "dependencies": {
@@ -438,21 +415,6 @@
         },
         "runtime": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "Swashbuckle.AspNetCore.SwaggerGen/5.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Swashbuckle.AspNetCore.Swagger": "5.0.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -1933,23 +1895,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "LoggerService.DAL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "LoggerService.BL": "1.0.0",
-          "LoggerService.Common": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/LoggerService.DAL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LoggerService.DAL.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -1974,33 +1919,6 @@
         "lib/netstandard2.0/DnsClient.xml",
         "lib/netstandard2.1/DnsClient.dll",
         "lib/netstandard2.1/DnsClient.xml"
-      ]
-    },
-    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
-      "sha512": "CTUFXZtUfx/rJMl3ep1E3KA7siGDEdm1QRA8ckrbeltEfr+Hs5DbytuTgPBf/Kyssv061zjyhcsl9w3LJMarmw==",
-      "type": "package",
-      "path": "microsoft.extensions.apidescription.server/3.0.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Microsoft.Extensions.ApiDescription.Server.props",
-        "build/Microsoft.Extensions.ApiDescription.Server.targets",
-        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props",
-        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets",
-        "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-        "microsoft.extensions.apidescription.server.nuspec",
-        "tools/Newtonsoft.Json.dll",
-        "tools/dotnet-getdocument.deps.json",
-        "tools/dotnet-getdocument.dll",
-        "tools/dotnet-getdocument.runtimeconfig.json",
-        "tools/net461-x86/GetDocument.Insider.exe",
-        "tools/net461-x86/GetDocument.Insider.exe.config",
-        "tools/net461/GetDocument.Insider.exe",
-        "tools/net461/GetDocument.Insider.exe.config",
-        "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
-        "tools/netcoreapp2.1/GetDocument.Insider.dll",
-        "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.2": {
@@ -2461,18 +2379,6 @@
         "sharpcompress.nuspec"
       ]
     },
-    "Swashbuckle.AspNetCore/5.0.0": {
-      "sha512": "HoJbhDNyeDqr2R1H3YhtPqGacxgZKBFBS6g5U3tlJpv80G/IHW8hHbcnHSTXZpcatnD+xh8UiUrKp4Ua857LSQ==",
-      "type": "package",
-      "path": "swashbuckle.aspnetcore/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/Swashbuckle.AspNetCore.props",
-        "swashbuckle.aspnetcore.5.0.0.nupkg.sha512",
-        "swashbuckle.aspnetcore.nuspec"
-      ]
-    },
     "Swashbuckle.AspNetCore.Swagger/5.5.0": {
       "sha512": "eB9DeUjIsHgYujVe9Mb4aweEcHvJbHwWlLq3fel5ZYe138sTKx0YLtWs80sWseZiN+CX7cfK/nD1mdWEBOfVsQ==",
       "type": "package",
@@ -2488,21 +2394,6 @@
         "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
         "swashbuckle.aspnetcore.swagger.5.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swagger.nuspec"
-      ]
-    },
-    "Swashbuckle.AspNetCore.SwaggerGen/5.0.0": {
-      "sha512": "liZs2B35w1bHNacpNoDofNCJKmEhUaHVgvtUsjt/AToKQdZQpk9dvLWrEfRHiuwZVUiKLL30lsiV4dEF/Drzlw==",
-      "type": "package",
-      "path": "swashbuckle.aspnetcore.swaggergen/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
-        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
-        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
-        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
-        "swashbuckle.aspnetcore.swaggergen.5.0.0.nupkg.sha512",
-        "swashbuckle.aspnetcore.swaggergen.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore.SwaggerUI/5.5.0": {
@@ -6460,21 +6351,12 @@
       "type": "project",
       "path": "../LoggerService.Common/LoggerService.Common.csproj",
       "msbuildProject": "../LoggerService.Common/LoggerService.Common.csproj"
-    },
-    "LoggerService.DAL/1.0.0": {
-      "type": "project",
-      "path": "../LoggerService.DAL/LoggerService.DAL.csproj",
-      "msbuildProject": "../LoggerService.DAL/LoggerService.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "LoggerService.BL >= 1.0.0",
-      "LoggerService.Common >= 1.0.0",
-      "LoggerService.DAL >= 1.0.0",
-      "MongoDB.Bson >= 2.10.4",
-      "MongoDB.Driver >= 2.10.4",
-      "Swashbuckle.AspNetCore >= 5.0.0"
+      "LoggerService.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6485,11 +6367,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Solutions\\logger\\LoggerService\\LoggerService\\LoggerService.csproj",
-      "projectName": "LoggerService",
-      "projectPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService\\LoggerService.csproj",
+      "projectUniqueName": "D:\\Solutions\\logger\\LoggerService\\LoggerService.DAL\\LoggerService.DAL.csproj",
+      "projectName": "LoggerService.DAL",
+      "projectPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService.DAL\\LoggerService.DAL.csproj",
       "packagesPath": "C:\\Users\\VoskolovychOS\\.nuget\\packages\\",
-      "outputPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService\\obj\\",
+      "outputPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6515,9 +6397,6 @@
             },
             "D:\\Solutions\\logger\\LoggerService\\LoggerService.Common\\LoggerService.Common.csproj": {
               "projectPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService.Common\\LoggerService.Common.csproj"
-            },
-            "D:\\Solutions\\logger\\LoggerService\\LoggerService.DAL\\LoggerService.DAL.csproj": {
-              "projectPath": "D:\\Solutions\\logger\\LoggerService\\LoggerService.DAL\\LoggerService.DAL.csproj"
             }
           }
         }
@@ -6530,20 +6409,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "dependencies": {
-          "MongoDB.Bson": {
-            "target": "Package",
-            "version": "[2.10.4, )"
-          },
-          "MongoDB.Driver": {
-            "target": "Package",
-            "version": "[2.10.4, )"
-          },
-          "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "[5.0.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

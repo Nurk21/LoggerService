@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LoggerService.BL\LoggerService.BL.csproj" />
     <ProjectReference Include="..\LoggerService.Common\LoggerService.Common.csproj" />
+    <ProjectReference Include="..\LoggerService.DAL\LoggerService.DAL.csproj" />
   </ItemGroup>
 
 
